@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Order</title>
+    <link rel="stylesheet" href="Project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Oswald:wght@300&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Photos/">
+
+</head>
+
+<body>
+  
+    <nav class="navbar">
+
+        <img src="/Photos/—Pngtree—coffee_3626459.png" height= "100px" width= "110px" alt="My Logo" id="logo">
+
+        <ul>
+            <li class="menu"><a href="#">Home</a></li>
+            <li class="menu"><a href="#">About Us</a></li>
+            <li class="menu"><a href="#">Services</a></li>
+            <li class="menu"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+<section class="bodytexts">
+
+    <h1 class="Primary">Welcome to Harsh's Kitchen</h1>
+    <p>Welcome to Harsh's Kitchen where you can order online free food from anywhere</p>
+    <p>Isn't it fun to sit down at home and enjoy the food at your doorstep?</p>
+    <p>Click order now to place the order</p>
+
+    <button class="btn">Order Now</button>
+
+</section>
+<h2 class="secondary">Order Food as Per Your Choice</h2>  
+
+
+<section id="services">
+    
+
+<div class="section1">
+<img id= "image1"src="/Photos/pizza.jpg" alt="Error">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ex praesentium voluptatem soluta at dicta suscipit. Saepe asperiores facilis excepturi quidem, cum suscipit cupiditate, iste quibusdam ad aperiam accusamus. Quam fugiat tenetur pariatur voluptatum.</p>
+</div>
+
+<div class="section2">
+    <img src="/Photos/burger.jpg" alt="Error" id="image2">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, maxime sapiente. Ipsum adipisci modi qui, maxime ad placeat! Dicta minus asperiores natus dignissimos magni eum, aliquid nostrum numquam ipsam adipisci necessitatibus corrupti sunt fuga.</p>
+</div>
+
+<div class="section3">
+    <img src="/Photos/biryani.jpg" alt="" id="image3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perferendis possimus fuga tempore ad excepturi esse, laudantium alias beatae! Tempore esse quos accusamus vel dolore, tenetur saepe ullam deserunt officiis pariatur debitis? Facilis, possimus.</p>
+
+</div>
+</section>
+
+<section id="client">
+    <h2 class="third">Our Clients</h2>
+    <div id="myclinets">
+    <img src="/Photos/kisspng-google-logo-brand-instagram-5ab6f4d915a620.2415440715219396730887.png" alt="clients" class="ourclinets">
+
+    <img src="/Photos/kisspng-macintosh-mac-os-x-lion-macos-macbook-operating-sy-apple-logo-5a77a762377353.6074034315177910742271.png" alt="clients" class="ourclinets">
+
+    <img src="/Photos/kisspng-microsoft-office-365-microsoft-dynamics-nav-comput-microsoft-logo-transparent-background-5a72909f3b3051.0133980415174575672424.png" alt="clients" class="ourclinets">
+
+    <img src="/Photos/kisspng-skype-logo-microsoft-brand-computer-software-skype-5abe28f6ccada6.1147679215224117668384.png" alt="clients" class="ourclinets">
+
+    <img src="/Photos/kisspng-social-media-institute-for-marine-and-antarctic-st-free-high-quality-twitter-icon-5ab02d62cbbab3.3746418515214953948345.png" alt="clients" class="ourclinets">
+</div>
+</section>
+
+<section id="contact">
+
+   <h2 class="forth">Cotact Us</h2>
+
+   <div class="formgroup">
+<label for="name">Name:</label>
+<input type="Name" name="Your name" placeholder="Enter Your Name" id="Contactus">
+
+<label for="email">Email:</label>
+<input type="email" name="Your Email" placeholder="Enter Your Email" id="Contactus">
+
+<label for="Phone">Phone:</label>
+<input type="phone" name="Your Phone" placeholder="Enter Your Phone" id="Contactus">
+
+<div class="formgroup">
+    <label for="message">Message: </label>
+    <textarea name="message" id="message" cols="40px" rows="10px"></textarea>
+</div>
+<div class="formgroup"></div>
+<button type="submit" form="Contactus" value="Submit">Submit</button>
+</div>
+
+
+   
+</section>
+
+</body>
+</html>

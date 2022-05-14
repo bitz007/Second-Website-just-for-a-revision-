@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 22px;
+    
+}
+/* This is the example to put background color to black */
+.navbar::before
+{
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: 40;
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+content: "";
+
+}
+
+/* Navigation bar */
+
+.navbar
+{
+    display: flex;
+
+     /* Positionn relative is to put the black background just in the navbar */
+     position: relative;
+    
+}
+
+.navbar ul
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.navbar ul li a:hover{
+
+    color: black;
+    background-color: white;
+
+}
+
+/* Section */
+
+.bodytexts::before
+{
+height: 642px;
+width: 100%;
+background: url(/Photos/First.jpg) no-repeat center center/cover;
+opacity: 0.9;
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+content: "";
+}
+
+.bodytexts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 535px;
+    color: white;
+    /* position: relative; */
+    font-weight: bolder;
+    
+}
+
+.Primary
+{
+    font-size: 2.8rem;
+    padding: 10px;
+}
+.btn
+{
+    font-size: 1.1rem;
+    padding: 0px 12px;
+    margin: 12px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(146, 202, 120);
+    border-radius: 20px;
+    text-align: center;
+    border: white;
+}
+.bodytexts p
+{
+    font-size: 1.2rem;
+    
+}
+.btn:hover
+{
+    background-color: rgb(135, 196, 107);
+    color: black;
+}
+
+/* Services */
+
+.section1 #image1
+{
+    height: 326px;
+    width: 500px;
+}
+
+.section2 #image2
+{
+    height: 326px;
+    width: 500px;
+}
+
+.section3 #image3
+{
+    height: 326px;
+    width: 500px;
+}
+
+#services
+{
+   display: flex;
+   margin: -30px 0px;
+   
+ 
+}
+
+.section1
+{
+    display: flex;
+    flex-direction: column;
+    height: 555px;
+    width: 500px;
+    border: 2px solid rgb(250, 173, 6);
+    text-align: center;
+    margin: 20px 30px;
+   padding: 10px 36px;
+   border-radius: 23px;
+   background-color: rgb(240, 226, 226);
+   
+}
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    height: 555px;
+    width: 500px;
+    border: 2px solid rgb(250, 173, 6);
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px 36px;
+    border-radius: 23px;
+    background-color: rgb(240, 226, 226);
+}
+.section3
+{
+    display: flex;
+    flex-direction: column;
+    height: 555px;
+    width: 500px;
+    border: 2px solid rgb(250, 173, 6);
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px 36px;
+    border-radius: 23px;
+    background-color: rgb(240, 226, 226);
+}
+.secondary
+{
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Clinets */
+
+#client::before
+{
+    content: "";
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(/Photos/clients.jpg) no-repeat center center/cover;
+    margin: 30px 0px;
+    padding: 23px 0px;
+    
+}
+#client
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 30px 0px;
+    padding: 98px 0px;
+}
+
+#myclinets
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ourclinets
+{
+    height: 120px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.third
+{
+    text-align: center;
+    font-size: 2rem;
+    color: black
+}
+
+.formgroup
+{
+  width: 479px;
+  height: 200px;
+  margin: 10px auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+#contact::before
+{
+    content: "";
+    height: 700px;
+    width: 102.15%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+   left: -20px;
+    position: absolute;
+    background: url(/Photos/contact-us-4193523_1920.jpg) no-repeat center center/cover;
+    
+   
+}
+
+#contact
+{
+  height: 300px;  
+  margin: 80px 20px;
+  padding: 40px 20px;
+  position: relative;
+}
+
+#Contactus
+{
+    /* padding: 2px 153px;
+    margin: 2px 37px; */
+    width: 477px;
+    height: 30px;
+    
+}
+.forth
+{
+text-align: center;
+display: block;
+font-size: 2rem;
+}
+
+
+
+
+

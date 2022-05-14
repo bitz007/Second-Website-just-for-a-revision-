@@ -1,0 +1,302 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+    
+}
+/* This is the example to put background color to black */
+.navbar::before
+{
+height: 100%;
+width: 100%;
+background-color: rgb(94, 77, 77);
+opacity: 0.9;
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+content: "";
+
+}
+
+/* Navigation bar */
+
+.navbar
+{
+    display: flex;
+
+     /* Positionn relative is to put the black background just in the navbar */
+     position: relative;
+    
+}
+
+.navbar ul
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    padding: 0px 25px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.navbar ul li a:hover{
+
+    color: black;
+    background-color: white;
+
+}
+
+/* Section */
+
+.bodytexts::before
+{
+height: 530px;
+width: 100%;
+background: url(/Photos/First.jpg) no-repeat center center/cover;
+opacity: 0.9;
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+content: "";
+}
+
+.bodytexts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 535px;
+    color: white;
+    position: relative;
+    font-weight: bolder;
+    font-family: 'Baloo Tamma 2', cursive;
+    
+}
+
+.Primary
+{
+    font-size: 2.8rem;
+    padding: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.btn
+{
+    font-size: 1.1rem;
+    padding: 0px 12px;
+    margin: 12px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(146, 202, 120);
+    border-radius: 20px;
+    text-align: center;
+    border: white;
+}
+.bodytexts p
+{
+    font-size: 1.2rem;
+    
+}
+.btn:hover
+{
+    background-color: rgb(135, 196, 107);
+    color: black;
+}
+
+/* Services */
+
+
+#services
+{
+   
+   height: 705px;
+   margin: 26px;
+}
+
+#services .section
+{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    top: 0px;
+    
+}
+
+
+#services .section .box
+{
+   height: 524px;
+   width: 520px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 0px 30px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+
+}
+
+
+.Paragraph1
+{
+text-align: center;
+font-size: 1rem;
+font-family: 'Baloo Tamma 2', cursive;
+}
+.secondary
+{
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+#services .section #image
+
+{
+    height: 326px;
+    width: 500px;
+}
+
+
+
+/* Clinets */
+
+#client::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(/Photos/clients.jpg) no-repeat center center/cover;
+    
+}
+#client
+{
+    position: relative;
+    height: 450px;
+
+}
+
+#myclinets
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 238px;
+    width: 100%;
+    
+}
+.ourclinets
+{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.third
+{
+    text-align: center;
+    font-size: 2.8rem;
+    color: black;
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+/* Contact */
+
+
+#contact::before
+{
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    position: absolute;
+    background: url(/Photos/contact-us-4193523_1920.jpg) no-repeat center center/cover;
+    
+   
+}
+
+#contact
+{
+  position: relative;
+ 
+}
+
+#forms input, #forms textarea
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#forms
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+
+#forms form{
+    width: 30%;
+}
+
+
+.forth
+{
+font-size: 2.4rem;
+text-align: center;
+padding: 20px 0px;
+font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* footer */
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    height: 100%;
+
+}
+.center
+{
+    text-align: center;
+    height: 100%;
+    width: auto;
+}
+
+
+
